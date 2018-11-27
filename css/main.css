@@ -149,15 +149,19 @@ body {
     }
     .text_c1{
         display: none;
+        height: 100%;
     }
     .text_c2{
         display: none;
+        height: 100%;
     }
     .text_e1{
         display: none;
+        height: 100%;
     }
     .text_e2{
         display: none;
+        height: 100%;
     }
 }
 
