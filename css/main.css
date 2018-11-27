@@ -131,11 +131,11 @@ body {
 @media screen and (max-width:768px){
     .area{
         position: absolute;
-        width: 720px;
-        height: 100%;
+        width: 300px;
+        height: 100vh;
         left: 50%;
         margin-top: 0;
-        margin-left: -360px;
+        margin-left: -150px;
      }
     .profile{
         position: absolute;
@@ -149,19 +149,19 @@ body {
     }
     .text_c1{
         display: none;
-        height: 100%;
+        width: 100%;
     }
     .text_c2{
         display: none;
-        height: 100%;
+        width: 100%;
     }
     .text_e1{
         display: none;
-        height: 100%;
+        width: 100%;
     }
     .text_e2{
         display: none;
-        height: 100%;
+        width: 100%;
     }
 }
 
@@ -181,14 +181,6 @@ body {
 }
 
 @media screen and (max-width:768px){
-    .area{
-        position: absolute;
-        width: 300px;
-        height: 500px;
-        left: 50%;
-        margin-top: 80px;
-        margin-left: -150px;
-     }
     .tittle{
         color: #CF6766;
         font-size: 50px;
