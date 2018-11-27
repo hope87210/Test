@@ -85,6 +85,13 @@ body {
     color: #fff;
     margin-top: 390px;
 }
+.t{
+    display: none;
+    color: #CF6766;
+    font-size: 46px;
+    font-style: bold;
+    padding: 8px;
+}
 .footer_back{
     position: fixed;
     background-color: #031424;
@@ -144,7 +151,16 @@ body {
         height: 200px;
         left: 50%;
         top: 50%;
-        margin-top: -100px;
+        margin-top: -130px;
+        margin-left: -100px;
+    }
+    .t{
+        display: block;
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: 38%;
+        top: 65%;
         margin-left: -100px;
     }
     .text_c1{
@@ -163,8 +179,56 @@ body {
         display: none;
         width: 100%;
     }
+    .nav ul{
+        position: absolute;
+        font-family: sans-serif;
+        z-index: 1;
+        margin-top: 20px;
+        right: 3%;
+    }
+    .nav ul li{
+        display: inline-block;
+    }
+    .nav ul li a{
+        text-decoration: none;
+        list-style-type: none;
+        background-color: #031424;
+        color: #81A1BD;
+        padding: 15px;
+    }
+    .nav ul li a:hover{
+        background: #8A97A8;
+        color: #fff;
+    }
 }
-
+@media screen and (max-width:480px){
+    .btn_home{
+        position: absolute;
+        margin-left: 45%;
+        padding: 10px;
+    }
+    .nav ul{
+        position: absolute;
+        font-family: sans-serif;
+        z-index: 1;
+        margin-top: 66px;
+        right: 13%;
+    }
+    .nav ul li{
+        display: inline-block;
+    }
+    .nav ul li a{
+        text-decoration: none;
+        list-style-type: none;
+        background-color: #031424;
+        color: #81A1BD;
+        padding: 10px;
+    }
+    .nav ul li a:hover{
+        background: #8A97A8;
+        color: #fff;
+    }
+}
 
 
 .tittle{
