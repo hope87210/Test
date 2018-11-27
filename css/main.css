@@ -210,7 +210,8 @@ body {
         font-family: sans-serif;
         z-index: 1;
         margin-top: 66px;
-        right: 13%;
+        right: 50%;
+        margin-right: -165px;
     }
     .nav ul li{
         display: inline-block;
